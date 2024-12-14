@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaan Kaya - Personal Site</title>
+    <style>
+        /* Genel Stil */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        /* Ana Konteyner */
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 90px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1.2);
+        }
+
+        /* Profil Fotoğrafları */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00d1ff;
+            margin-bottom: 20px;
+        }
+
+        /* Sosyal Bağlantılar */
+        .links a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #00d1ff;
+            font-size: 2rem;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .links a:hover {
+            color: #ff6b6b;
+            transform: scale(1.2);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Profil Resmi -->
+        <img src="kaancvphoto.jpg" alt="Kaan Kaya" class="profile-pic">
+        
+        <!-- Sosyal Linkler -->
+        <div class="links">
+            <a href="https://www.linkedin.com/in/kaankaya07/" target="_blank" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://wa.me/+9005347045969" target="_blank" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/KaanKayaS" target="_blank" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        
+        <footer>
+            <p>KAAN KAYA</p>
+        </footer>
+    </div>
+
+    <!-- FontAwesome CDN for Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
